@@ -4,7 +4,7 @@ This project will try to detect every type of euro coin within an image using ju
 ## Overview
 We will try to detect the amount of money within a euro coins image like this one:
 
-![Example of initial image](images/coins.jpg)
+![Example of initial image](images/coins.png)
 
 Each image should be from above and the coins could be facing either heads or tails but they should not be overlapping each other.
 
