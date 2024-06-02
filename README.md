@@ -46,8 +46,17 @@ It means that there are 14 coins (sum of all votes), and there are 0 votes for i
 We take the RGB histogram and set a threshold, for each color so we can clearly know if it is a bronze coin, gold coin, 1 euro coin or 2 euro coin (It would not be possible to distinguish between same color coins, so there we could only use its size).
 
 Here are some examples:
+![5 cent example](images/5.png)
+![20 cent example](images/20.png)
+![1 euro example](images/1.png)
 
 
+Notice how different are the hitogram, so its going to be easy to determine a threshold to classify the coins with different color.
+
+## Results and conclusion
+In this image, we only miss one coin (it thought 20 cent were 50 cent), this is basically where the issue is, same color coins. When it comes to classify different color coins, it is easily for the algorithm.
+
+Probably creating a neural network would have been better to classify this coins, but we were just trying to develop Computer Vision skills in this case.
 
 ## MATLAB dependencies
 - Image Processing Toolbox
