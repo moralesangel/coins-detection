@@ -22,7 +22,7 @@ Then, we will apply dilate and erode (in that specific order) to remove salt and
 
 ![Removing salt and pepper](images/peppersalt.png)
 
-Now we are ready to use regionprops, a function from Image Processing library for detection regions like squares or circles (like coins).
+Now we are ready to use regionprops, a function from Image Processing library for regions detection like squares or circles (like coins).
 
 ![Detected coins](images/regionprops.png)
 
