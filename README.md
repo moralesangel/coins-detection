@@ -51,7 +51,7 @@ Here are some examples:
 ![1 euro example](images/1.png)
 
 
-Notice how different are the hitogram, so its going to be easy to determine a threshold to classify the coins with different color.
+Notice how different are the hitogram, so it is going to be easy to determine a threshold to classify the coins with different color.
 
 ## Results and conclusion
 In this image, we only miss one coin (it thought 20 cent were 50 cent), this is basically where the issue is, same color coins. When it comes to classify different color coins, it is easily for the algorithm.
