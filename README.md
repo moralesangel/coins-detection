@@ -18,7 +18,7 @@ We start by preprocessing the image, first step, binarizing it:
 
 ![Binarized image](images/binary.png)
 
-Then, we will aply dilate and erode (in that specific order) to remove salt and pepper noise in our image:
+Then, we will apply dilate and erode (in that specific order) to remove salt and pepper noise in our image:
 
 ![Removing salt and pepper](images/peppersalt.png)
 
